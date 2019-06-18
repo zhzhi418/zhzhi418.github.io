@@ -69,12 +69,21 @@
                 <div class="cont-top">
                     <div class="col-md-6 contact-pad">
                         <div class="contact-form">
-                            <form>
+                            <!--<form>
                                 <input type="text" class="textbox" value=" Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}"><br>
                                 <input type="text" class="textbox" value="Your E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your E-mail';}"><br>
                                 <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Message ';}">Your Message</textarea><br>
                                 <input class="btn btn-default cont-btn" type="submit" value="SEND " />
-                            </form>
+                            </form> -->
+							 <form action="https://formspree.io/sales@kagekawa.com" method="post">
+								<input type="text" class="textbox" placeholder=" Your Name" name="name">
+								<input type="email" class="textbox" placeholder="Your E-mail" name="eamil">
+								<textarea name="message" id="doc-vld-ta-2-1" minlength="10"  placeholder="Your Message"></textarea>
+								<div class="banner_btn pa">
+									<button style="line-height: 41px;" type="submit">SEND </button>
+								</div>
+							</form>						
+
                         </div>
                     </div>
                     <div class="col-md-6 contact-pad"> 
