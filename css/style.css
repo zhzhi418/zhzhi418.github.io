@@ -1,9 +1,5 @@
 h4, h5, h6,
-h1, h2, h3 {
-	margin: 0;
-	font-family: inherit;
-	font-size: 36px;
-}
+h1, h2, h3 {margin: 0;}
 ul, ol, li{margin: 0; padding: 0;}
 p {margin: 0;padding: 0;}
 body{
@@ -392,22 +388,22 @@ img.aprch-img-wid {
     width: 100%;
 }
 .approach-grid h3 {
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 15px;
-    font-family: 'Allerta', sans-serif;
-    text-transform: capitalize;
-    text-align: left;
-    color: #161616;
+	font-size: 22px;
+	font-weight: 300;
+	margin-bottom: 15px;
+	font-family: 'Allerta', sans-serif;
+	text-transform: capitalize;
+	text-align: left;
+	color: #FC0105;
 }
 .approach-grid p{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    text-align: left;
-    line-height: 1.8em;
-    color: #aaa;
-    margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	text-align: left;
+	line-height: 1.8em;
+	color: #000000;
+	margin-bottom: 15px;
 }
 .quality {
     text-align: center;
@@ -438,13 +434,13 @@ img.aprch-img-wid {
     list-style-type: none;
 }
 .quality-grid ul li{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    text-align: left;
-    line-height: 1.8em;
-    color: #aaa;
-    margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 17px;
+	text-align: left;
+	line-height: 1.8em;
+	color: #000000;
+	margin-bottom: 15px;
 }
 .member-grid ul{
     list-style-type: none;
@@ -635,8 +631,8 @@ ul.details-top h3,ul.adress-left h3 {
     margin-top: 20px;
 }
 ul.adress-left {
-	list-style-type: none;
-	text-align: left;
+    list-style-type: none;
+    text-align: left;
 }
 .reachus ul li {
 	line-height: 2em;
